@@ -1,6 +1,6 @@
-import * as logger from 'debug';
+import logger from 'debug';
 import * as cheerio from 'cheerio';
-import * as request from 'request';
+import request from 'request';
 import { URLSearchParams } from 'url';
 
 import { RoyalError } from './responses';

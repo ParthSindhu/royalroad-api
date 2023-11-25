@@ -1,4 +1,4 @@
-import * as logger from 'debug';
+import logger from 'debug';
 import date = require('date.js');
 import * as cheerio from 'cheerio';
 import { getLastPage } from '../utils';

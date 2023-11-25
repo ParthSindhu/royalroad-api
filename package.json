@@ -2,7 +2,7 @@
   "name": "@fsoc/royalroadl-api",
   "version": "0.15.0",
   "description": "Minimal Node.js royalroad API.",
-  "main": "dist/lib.js",
+  "main": "dist/scraper.js",
   "scripts": {
     "docs": "typedoc --out docs --theme minimal --readme none --mode file --name royalroadl-api src",
     "test": "tsc && ava"
@@ -13,12 +13,14 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "date.js": "^0.3.3",
+    "p-limit": "^3.1.0",
     "request": "^2.88.0"
   },
   "devDependencies": {
     "@types/cheerio": "^0.22.10",
     "@types/debug": "0.0.30",
     "@types/got": "^7.1.8",
+    "@types/node": "^20.10.0",
     "@types/request": "^2.48.1",
     "ava": "^1.0.1",
     "ts-node": "^7.0.1",
